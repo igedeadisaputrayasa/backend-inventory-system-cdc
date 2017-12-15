@@ -1,0 +1,15 @@
+{% extends 'InventoryBundle:Common:content.html.twig' %}
+{% block page_stylesheets %}
+    {% include "InventoryBundle:Common:styles.html.twig" %}
+{% endblock %}
+{% block page_javascripts %}
+    {% include "InventoryBundle:Common:scripts.html.twig" %}
+    {% javascripts
+        
+    %}
+    <script src="{{ asset_url }}" type="text/javascript"></script>
+    {% endjavascripts %}
+{% endblock %}
+
+{% block body %}
+{% endblock %}
